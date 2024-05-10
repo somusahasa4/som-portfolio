@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom styles */
+.App {
+    background: linear-gradient(180deg, #f4f4f4, transparent);
+    color: #000000;
+}
