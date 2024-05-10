@@ -43,7 +43,7 @@ const Projects = () => (
               
               ✓ Disaster recovery when the Production instance goes down
               <br/>
-            
+
 
             </Accordion.Body>
             </Accordion.Item>
