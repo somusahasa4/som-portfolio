@@ -7,7 +7,7 @@ import './Sitenav.scss';
 function Sitenav() {
   return (
     <header className="header">
-        <Navbar>
+        <Navbar className="navbar-expand-lg">
           <Container className="justify-content-between">
             <Navbar.Brand href="#home">Somasundaram</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
