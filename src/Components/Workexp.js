@@ -3,7 +3,7 @@ import { Container, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Workexp = () => (
-  <div className="workexp">
+  <div id="workexp" className="workexp">
     <Container>
       <h1>Workexp</h1>
         <div className="workexp-org">

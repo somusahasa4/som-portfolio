@@ -1307,7 +1307,7 @@ section {
         padding-bottom: 20px;
         text-align: left;
         margin: 0 auto;
-        width: 400px;
+        max-width: 400px;
         h2 {
             margin-top: 15px;
         }
@@ -1384,6 +1384,33 @@ section {
 .header .navbar {
     color: #ffffff;
     background: linear-gradient(0deg, #770809, #fe4f4f);
+    .navbar-brand {
+        padding: 20px;
+    }
+    &-toggler {
+        border-color: #ffffff;
+    }
+    .navbar-brand,
+    .nav-link,
+    .dropdown-item,
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: #ffffff;
+        &:focus,
+        &:hover {
+            background: linear-gradient(0deg, #fe4f4f, #770809);
+        }
+        &:focus,
+        &:active,
+        &:visited,
+        &.nav-link.show {
+            color:#ffffff;
+        }
+    }
+     .dropdown-menu {
+        background-color: #f55e5e;
+     }
 }
 
 h1, h2, h3, h4, h5 {

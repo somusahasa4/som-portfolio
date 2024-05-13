@@ -3,7 +3,7 @@ import { Container, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Academic = () => (
-  <div className="academic">
+  <div id="academic" className="academic">
     <Container>
       <h1>Academic</h1>
         <div className="table-responsive-md">

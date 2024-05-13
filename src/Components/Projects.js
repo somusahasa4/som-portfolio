@@ -4,11 +4,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/js/src/collapse.js";
 
 const Projects = () => (
-  <div className="projects">
+  <div id="projects" className="projects">
     <Container>
       <h1>Projects</h1>
       <Accordion defaultActiveKey="0">
-        <Accordion.Item eventKey="0">
+        <Accordion.Item id="project1" eventKey="0">
           <Accordion.Header><h2>Adobe Campaign Classic implementation for Banking sector </h2>
           </Accordion.Header>
             <Accordion.Body>
@@ -47,7 +47,7 @@ const Projects = () => (
 
             </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1">
+            <Accordion.Item id="project2"  eventKey="1">
                 <Accordion.Header><h2>Implementation of Adobe Campaign Standard for Cosmetic products </h2>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -72,7 +72,7 @@ const Projects = () => (
                   <br/>✓ Data and Campaign management across different regions using same instance
                 </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2">
+            <Accordion.Item id="project3" eventKey="2">
                 <Accordion.Header><h2>Developing web pages for top Immigration web-based application</h2>
                 </Accordion.Header>
                 <Accordion.Body>
