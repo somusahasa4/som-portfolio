@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://somusahasa4.github.io/som-portfolio/",
-  "scripts",: {
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
