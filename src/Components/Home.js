@@ -13,25 +13,22 @@ import Sitenav from './Sitenav';
 import Hero from './Hero';
 
 
+
+
 const HomePage = () => (
 
   <Container id="home" fluid>
-       <title>new title</title>
       <Hero />
       <Sitenav/>
       <Coverletter/>
-      <Academic/>
+      <Workexp/>
       <Projects/>
       <Skills/>
+      <Academic/>
       <Techknowledge/>
-      <Workexp/>
       <p>
         <Button variant="primary">Learn more</Button>
       </p>
-
   </Container>
 );
-
-
-
 export default HomePage;

@@ -1195,9 +1195,11 @@ section {
         border-radius: 5px;
         color: #000000;
         padding: 30px 10px;
+        margin-bottom: 15px;
         &:hover {
             background-color: #db528c;
-            background: linear-gradient(0deg, #9a0645, #ff4b97);
+            /*background: linear-gradient(0deg, #9a0645, #ff4b97);*/
+            background: linear-gradient(0deg, #1c8e9e, #03ffe7);
             color: #ffffff;
         }
     }
@@ -1281,16 +1283,14 @@ section {
     color: #db528c;
 }
 
-.workexp, .techknowledge {
+
+.techknowledge {
     background: #fff;
     color: #333333;
     padding: 30px 10px;
     .navbar li {
         list-style: none;
     }
-}
-
-.techknowledge {
     .tech-items {
         background: #ffdff7;
         border-radius: 30px;
@@ -1298,11 +1298,22 @@ section {
         padding: 100px 0;
         margin-bottom: 100px;
     }
+    .icon-box {
+        border-radius: 3px;
+        border: 1px solid #444444;
+        background-color: #f8f8f8;
+    }
 }
 .workexp {
-    padding-top: 100px;
-    background-color: #ffe1ee;
+    $workexpcolor: #24ad57;
+    $workexpbgcolor: #c5ffdb;
+    background-color: $workexpbgcolor;
     margin-bottom: 100px;
+    color: #333333;
+    padding: 100px 10px 30px;
+    .navbar li {
+        list-style: none;
+    }
     &-org {
         padding-bottom: 20px;
         text-align: left;
@@ -1313,14 +1324,14 @@ section {
         }
     }
     &-duration {
-        background-color: #ffa0c9;
+        background-color: #33f97e;
         display: inline-block;
         padding: 5px;
         margin-bottom: 5px;
     }
     .exp-role {
         padding: 0px 20px 3px;
-        border-left: 3px solid #db528c;
+        border-left: 3px solid $workexpcolor;
         position: relative;
         &:before {
             content: "";
@@ -1331,7 +1342,7 @@ section {
             left: -12px;
             top: 0px;
             background: #fff;
-            border: 2px solid #db528c;
+            border: 2px solid $workexpcolor;
         }
     }
 }
@@ -1419,7 +1430,8 @@ h1, h2, h3, h4, h5 {
 
 .skills {
     padding-top:100px;
-    background-color: #c2e5bb;
+    background-color: #00a999;
+    color: #fff;
     margin-bottom: 100px;
 }
 

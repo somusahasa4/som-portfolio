@@ -114,6 +114,10 @@ const Skills = () => (
 
             </div>
         <Button className="btn-primary">Next</Button>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
     </Container>
 </div>
 );
