@@ -1283,6 +1283,16 @@ section {
     color: #db528c;
 }
 
+.badge-pill a {
+    color: red;
+}
+.badge-pill a:hover{
+    color: green;
+}
+
+.badge-pill a:focus {
+    color: black;
+}
 
 .techknowledge {
     background: #fff;
