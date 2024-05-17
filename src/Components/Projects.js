@@ -2,7 +2,7 @@ import React from "react";
 import {Accordion, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/js/src/collapse.js";
-import '../style/scroll.css';
+
 
 const Projects = () => (
 
