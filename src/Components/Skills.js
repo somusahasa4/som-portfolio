@@ -6,7 +6,6 @@ const Skills = () => (
     <Container>
         <div className="skills">
             <h1>Skills</h1>
-            <h1>Technical Knowledge</h1>
             <h2>Digital Marketing:</h2>
             <Container className="items">
                 <div className="row">

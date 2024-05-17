@@ -2,11 +2,13 @@ import React from "react";
 import {Accordion, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/js/src/collapse.js";
+import '../style/scroll.css';
 
 const Projects = () => (
 
   <Container>
-    <div id="projects" className="projects">
+
+     <div id="projects" className="projects">
       <h1>Projects</h1>
       <Accordion defaultActiveKey="0">
         <Accordion.Item id="project1" eventKey="0">
@@ -26,24 +28,7 @@ const Projects = () => (
               </p>
               
               
-              ✓ SMS channel setup for Batch communication using Marketing servers
-              <br/>
-              
-              ✓ SMS channel setup for Realtime communication using Realtime servers
-              <br/>
-              
-              ✓ Push notification using marketing and Realtime communication
-              <br/>
-              
-              ✓ Creating webapps and technical workflows for helping business users to do automated
-              deployment from lower environment to Prod environment
-              <br/>
-              
-              ✓ Helping client on the Operational process
-              <br/>
-              
-              ✓ Disaster recovery when the Production instance goes down
-              <br/>
+
             
 
             </Accordion.Body>
