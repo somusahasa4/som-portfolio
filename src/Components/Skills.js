@@ -1,125 +1,91 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.scss';
 const Skills = () => (
-<div className="skills">
     <Container>
-        <h1>Skills</h1>
-        <div>
-            <Container fluid>
-                <div className="flex-row bd-highlight mb-3 flex-wrap">
+        <div className="skills">
+            <h1>Skills</h1>
+            <h1>Technical Knowledge</h1>
+            <h2>Digital Marketing:</h2>
+            <Container className="items">
                 <div className="row">
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon acc-icon"></div>
-                <h4 className="title">Adobe Campaign Classic</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon acs-icon"></div>
-                <h4 className="title">Adobe Campaign Standard</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon aep-icon"></div>
-                <h4 className="title">Adobe Experience Platform</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon aa-icon"></div>
-                <h4 className="title">Adobe Analytics</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>
+                        Campaign Management
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>
+                        Adobe Campaign Classic
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>
+                        Adobe Campaign Standard
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>
+                        Adobe Experience Platform
+                        </div>
+                    </div>
                 </div>
             </Container>
-            <Container fluid>
-                <div className="flex-row bd-highlight mb-3 flex-wrap skills">
+            <h2>Web Technologies:</h2>
+            <Container className="tech-items">
                 <div className="row">
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon html-icon"></div>
-                <h4 className="title">HTML</h4>
-                <p className="description">Lorem ipsum</p>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Template engines: JADE/PUG,Css Preprocessors: SASS/SCSS
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Front end framework: Bootstrap3 html/ css/ sass/ JavaScript components
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Blog/Article: WordPress - maintenance and creating/updating new themes
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Customised icon font creation, Glyphicons, Font awesome
+                        </div>
+                    </div>
                 </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon css-icon"></div>
-                <h4 className="title">CSS</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon js-icon"></div>
-                <h4 className="title">Javascript</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon react-icon"></div>
-                <h4 className="title">ReactJs</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                </div>
-                </div>
-            </Container>
-            <Container fluid>
-                <div className="flex-row bd-highlight flex-wrap skills">
                 <div className="row">
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon bs-icon"></div>
-                <h4 className="title">Bootstrap</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon jq-icon"></div>
-                <h4 className="title">Jquery</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon soap-icon"></div>
-                <h4 className="title">Soap API</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                <div className="col-md-6 col-lg-3 align-items-stretch mb-lg-0">
-                <div className="iconbox">
-                <div className="icon rest-icon"></div>
-                <h4 className="title">Rest API</h4>
-                <p className="description">Lorem ipsum</p>
-                </div>
-                </div>
-                </div>
-                </div>
-                <div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>SEO, Responsive Web Designing
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Web Standards and Accessibility
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Cross-Browser Compatibility
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="icon-box">
+                        <span className="badge badge-primary badge-pill">✓</span>Google Analytics and Google Adwords/Adsense
+                        </div>
+                    </div>
                 </div>
             </Container>
 
-            </div>
-        <Button className="btn-primary">Next</Button>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        </div>
     </Container>
-</div>
 );
 
 export default Skills;

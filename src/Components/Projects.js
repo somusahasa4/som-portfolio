@@ -1,11 +1,12 @@
 import React from "react";
-import {Accordion, Container, Button} from 'react-bootstrap';
+import {Accordion, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/js/src/collapse.js";
 
 const Projects = () => (
-  <div id="projects" className="projects">
-    <Container>
+
+  <Container>
+    <div id="projects" className="projects">
       <h1>Projects</h1>
       <Accordion defaultActiveKey="0">
         <Accordion.Item id="project1" eventKey="0">
@@ -102,10 +103,9 @@ const Projects = () => (
                 </Accordion.Body>
           </Accordion.Item>
       </Accordion>
-      <br/><br/><br/><br/><br/>
-      <Button className="btn-primary">Next</Button>
-    </Container>
-  </div>
+    </div>
+  </Container>
+
 );
 
 export default Projects;

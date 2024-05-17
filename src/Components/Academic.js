@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Academic = () => (
-  <div id="academic" className="academic">
+
     <Container>
+      <div id="academic" className="academic">
       <h1>Academic</h1>
         <div className="table-responsive-md">
           <table className="table table-hover table-light">
@@ -72,9 +73,9 @@ const Academic = () => (
                   </tbody>
                 </table>
         </div>
-        <Button className="btn-success">Contact</Button>
+      </div>
     </Container>
-  </div>
+
 );
 
 export default Academic;
