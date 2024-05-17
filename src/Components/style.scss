@@ -1240,9 +1240,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 100px;
 
     .icon-box {
-        background-color: $color1;
+        background-color: #dddddd42;
         border-radius: 5px;
-        color: #000000;
+        color: #ffffff;
         padding: 30px 10px;
         margin-bottom: 15px;
         animation-fill-mode: both;
@@ -1252,10 +1252,7 @@ h1, h2, h3, h4, h5 {
         opacity: 1;
         animation-name: react-reveal-754943790134388-1;
         &:hover {
-            //background-color: red !important;
-            //background: linear-gradient(0deg, $color1, $color2);
-            color: #333333;
-            transform: scale(1.1x);
+            transform: scale(1.1);
         }
     }
 
@@ -1392,12 +1389,13 @@ h1, h2, h3, h4, h5 {
 .workexp {
     $workexpcolor: #24ad57;
     $workexpbgcolor: #c5ffdb9e;
-    //background-color: $workexpbgcolor;
     margin-bottom: 100px;
     color: $text-color-primary;
-    //background: #7a7a7a5c;
     border: 1px solid #c7ffdc;
     padding: 0 0 30px;
+    @media (max-width: 480px) {
+        border: none;
+    }
     h1 ~ h2 {
         font-size: 14px;
     }
@@ -1516,7 +1514,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .icon-box {
-        background-color: $text-color-primary;
+        background-color: #ffffff40;
         border-radius: 5px;
         color: #000000;
         padding: 30px 10px;
