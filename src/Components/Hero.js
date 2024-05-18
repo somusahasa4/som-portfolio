@@ -6,7 +6,7 @@ function Sitenav() {
     <section id="hero" className="hero d-flex flex-column align-items-center justify-content-center">
 
     <h1>Hi, I'm Somasundaram!</h1>
-    <h2><Typewriter text="Expertise in Front End Development and in Digital experiences! SME for Adobe Campaign!!" delay="100" infinite/></h2>
+    <h2><Typewriter text="Expertise in Front End Development and in Digital experiences! SME for Adobe Campaign!!                            " delay="100" infinite/></h2>
     <a href="#about" className="btn-get-started scrollto"><i className="bi bi-arrow-down-circle-fill"></i></a>
   </section>
     );
