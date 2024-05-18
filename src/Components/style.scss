@@ -1449,9 +1449,27 @@ h1, h2, h3, h4, h5 {
             background: #fff;
             border: 2px solid $workexpcolor;
         }
+        .arrowUp:before {
+            color: #b2fec899;
+            content: '^';
+            width: 22px;
+            height: 22px;
+            font-size: 25px;
+            border-radius: 50%;
+            position: relative;
+            left: -27px;
+            animation-name: arrowUp;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
     }
 }
 
+
+@keyframes arrowUp {
+  0%   {top:200px;}
+  100% {top:12px;}
+}
 
 .coverletter {
     //background: #ffeded8f;
@@ -1657,4 +1675,70 @@ h1 {
 
 html {
     background: #0e0c0f;
+}
+
+.tags {
+    padding: 20px;
+    span {
+        padding: 10px;
+        background-color: #bbbbbb7d;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px;
+        color: #fff;
+        &:hover {
+            background-color: #ffffff26;
+        }
+    }
+}
+
+
+.tags span {
+  position: relative;
+  animation-name: tagSpin;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes tagSpin {
+  0%   {background-color: #000;}
+  25%  {background-color: #bbbbbb7d;}
+  50%  {background-color: #ffffff26; color: #444444;}
+  75%  {background-color: #bbbbbb7d;color: #fff;}
+  100% {background-color: #000;}
+}
+
+/* Arrow up styles */
+.coverletter .list-group-item:hover {
+    animation-name: zoom;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.coverletter .list-group-item:hover:before {
+    animation-name: tick-icon;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes zoom {
+  0%   {font-size: 16px; background-color: #ffffff;}
+  50% {font-size: 16px;background-color: #6df387;}
+  100% {font-size: 16px;background-color: #eeeeee;}
+}
+
+@keyframes tick-icon {
+  0%   {transform: scale3d(1.0, 1.0, 1.0)}
+  50% {transform: scale3d(1.5, 1.5, 1.5)}
+  100% {transform: scale3d(1.0, 1.0, 1.0)}
 }

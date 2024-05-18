@@ -113,6 +113,34 @@ const Techknowledge = () => (
       </Container>
 
     </div>
+    <div className="tags">
+        <span>Adobe Campaign Classic v7</span>
+        <span>Adobe Campaign Classic v8</span>
+        <span>Adobe Campaign Standard</span>
+        <span>Adobe Analytics</span>
+        <span>Adobe Experience Manager</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Javascript</span>
+        <span>Jquery</span>
+        <span>ReactJs</span>
+        <span>Bootstrap</span>
+        <span>SASS/SCSS</span>
+        <span>XML</span>
+        <span>ResponsiveWebDesign</span>
+        <span>Json</span>
+        <span>Github</span>
+        <span>NodeJs</span>
+        <span>SQL</span>
+        <span>Progressive WebApp</span>
+        <span>FCM</span>
+        <span>SOAP API</span>
+        <span>Restful API</span>
+        <span>Adobe Photoshop</span>
+        <span>Adobe InDesign</span>
+        <span>Adobe Dreamweaver</span>
+        <span>Adobe Illustrator</span>
+    </div>
   </Container>
 );
 
