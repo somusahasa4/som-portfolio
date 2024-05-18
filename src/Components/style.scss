@@ -1347,6 +1347,9 @@ h1, h2, h3, h4, h5 {
 
 .accordion {
     border: 1px solid #dddddd;
+    h2 {
+        font-size: 18px;
+    }
     &-item {
         border-color: #dddddd;
         //background: #7a7a7a5c;
@@ -1425,8 +1428,8 @@ h1, h2, h3, h4, h5 {
         }
     }
     &-duration {
-        background-color: #c7ffdc;
-        color: #333333;
+        background-color: #c7ffdc6b;
+        color: #ffffff;
         display: inline-block;
         padding: 5px;
         margin-bottom: 5px;
@@ -1489,7 +1492,8 @@ h1, h2, h3, h4, h5 {
 
         th {
             border-radius: 5px;
-            background: linear-gradient(0deg, $gradient1-color-top, $gradient1-color-bottom);
+            //background: linear-gradient(0deg, $gradient1-color-top, $gradient1-color-bottom);
+            background: rgba(221, 221, 221, 0.2588235294);
             color: #ffffff;
         }
         td {
@@ -1527,7 +1531,7 @@ h1, h2, h3, h4, h5 {
         animation-name: react-reveal-754943790134388-1;
         &:hover {
             //background-color: red !important;
-            background: linear-gradient(0deg, $color1, $color2);
+            background: linear-gradient(0deg, #dddddd1a, #ededed);
             color: #333333;
             transform: scale(1.1x);
         }

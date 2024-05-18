@@ -48,7 +48,7 @@ const Academic = () => (
                 </thead>
                 <tbody>
                  <tr>
-                    <td><span className="course">Higher Secondary</span> School with <span className="score">80.83%</span> marks</td>
+                    <td><span className="course">Higher Secondary Education Examination Board</span> School with <span className="score">80.83%</span> marks</td>
                     </tr>
 
                       <tr>
@@ -59,16 +59,16 @@ const Academic = () => (
               <table className="table table-hover table-light">
                   <thead>
                     <tr className="table-primary">
-                      <th scope="col">High School</th>
+                      <th scope="col">Secondary School Leaving Certificate</th>
                     </tr>
                   </thead>
                   <tbody>
                    <tr>
-                      <td><span className="course">High School</span> with <span className="score">90%</span> marks</td>
+                      <td><span className="course">Secondary School Leaving Certificate</span> with <span className="score">90%</span> marks</td>
                       </tr>
 
                         <tr>
-                          <td>School: Government High School, Kattabettu, The Nilgiris</td>
+                          <td>School: Government High School, Secondary Education Examination Board Kattabettu, The Nilgiris</td>
                         </tr>
                   </tbody>
                 </table>

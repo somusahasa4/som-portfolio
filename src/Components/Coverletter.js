@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
+
+
 const Coverletter = () => (
   <Container>
      <Container fluid>
@@ -8,12 +10,12 @@ const Coverletter = () => (
 
             <h1>Summary</h1>
             <ul className="list-group">
-            <li className="list-group-item">10+ years of experience IT in web technologies and in Marketing Technology</li>
+            <li className="list-group-item">10+ years of IT experience in Web Technologies and Digital Marketing Technologies</li>
             <li className="list-group-item">
             Adobe Campaign Implementation and Campaign Management across different channels
             </li>
                             <li className="list-group-item">
-            Integrating Adobe Campaign tool with other tools like Adobe Analytics, AEM, Tealium and custom
+            Integrating Adobe Campaign tool with other tools like Adobe Analytics, AEM and custom
             connectors for custom channels
             </li>
                                     <li className="list-group-item">
