@@ -6,10 +6,10 @@ import './Sitenav.scss';
 
 function Sitenav() {
   return (
-    <header className="header">
+    <header className="header" id="sitenav">
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">Somasundaram</Navbar.Brand>
+           {/*<Navbar.Brand href="#home">Somasundaram</Navbar.Brand>*/}
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

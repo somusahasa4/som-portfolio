@@ -12,25 +12,10 @@ import Workexp from './Workexp';
 import Sitenav from './Sitenav';
 import Hero from './Hero';
 import ScrollToTop from './ScrollToTop';
-
-
+import Contactme from './Contactme';
+import data from './contentJson';
 
 function HomePage () {
-
-useEffect(() => {
-    const script = document.createElement('script');
-
-    script.src = "https://unpkg.com/aos@2.3.1/dist/aos.js";
-    script.async = true;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
-
-
 return (
   <Container id="home" fluid>
     <div  data-aos="flip-right">
@@ -45,7 +30,7 @@ return (
       <Skills/>
       <Academic/>
       <Techknowledge/>
-
+      <Contactme data={data} />
       <ScrollToTop />
       <script>
           AOS.init();

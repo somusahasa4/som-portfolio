@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Coverletter = () => (
   <Container>
      <Container fluid>
-        <div className="coverletter">
+        <div id="coverletter" className="coverletter">
 
             <h1>Summary</h1>
             <ul className="list-group">
