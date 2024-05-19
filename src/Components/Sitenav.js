@@ -6,7 +6,7 @@ import './Sitenav.scss';
 
 function Sitenav() {
   return (
-    <header className="header">
+    <header className="header" id="sitenav">
       <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
         <Container>
            {/*<Navbar.Brand href="#home">Somasundaram</Navbar.Brand>*/}
