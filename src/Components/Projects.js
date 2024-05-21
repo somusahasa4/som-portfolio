@@ -2,12 +2,12 @@ import React from "react";
 import {Accordion, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/js/src/collapse.js";
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Projects = () => (
 
   <Container>
-
+     <ScrollAnimation animateIn='fadeIn'>
      <div id="projects" className="projects">
       <h1>Projects</h1>
       <Accordion defaultActiveKey="0">
@@ -89,6 +89,7 @@ const Projects = () => (
           </Accordion.Item>
       </Accordion>
     </div>
+    </ScrollAnimation>
   </Container>
 
 );

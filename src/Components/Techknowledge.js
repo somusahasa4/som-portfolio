@@ -2,7 +2,6 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import "animate.css/animate.compat.css"
 
 const Techknowledge = () => (
 

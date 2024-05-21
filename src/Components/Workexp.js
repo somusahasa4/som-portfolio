@@ -1,11 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Workexp = () => (
 
   <Container>
+    <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
     <div id="workexp" className="workexp">
       <h1>Work Experience</h1>
       <h2>Overall of 10+ Years of Experience</h2>
@@ -54,6 +55,7 @@ const Workexp = () => (
             </div>
         </div>
       </div>
+      </ScrollAnimation>
     </Container>
 );
 
