@@ -1497,6 +1497,7 @@ html {
     background: #0e0c0f;
 }
 
+/*
 .tags {
     padding: 20px;
     span {
@@ -1530,6 +1531,18 @@ html {
   50%  {background-color: #ffffff26; color: #444444;}
   75%  {background-color: #bbbbbb7d;color: #fff;}
   100% {background-color: #000;}
+}*/
+
+.tags {
+    padding: 20px;
+    > div, > span {
+        padding: 10px;
+        background-color: #bbbbbb7d;
+        border-radius: 20px;
+        display: inline-block;
+        margin: 10px;
+        color: #fff;
+    }
 }
 
 /* Arrow up styles */
@@ -1578,3 +1591,5 @@ html {
         }
     }
 }
+
+

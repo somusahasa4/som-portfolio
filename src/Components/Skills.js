@@ -2,9 +2,11 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 import './style.scss';
+
 const Skills = () => (
     <Container>
         <div className="skills">
+
             <h1>Skills</h1>
             <h2>Digital Marketing:</h2>
             <Container className="items">
@@ -15,6 +17,7 @@ const Skills = () => (
                         Campaign Management
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6">
                         <div className="icon-box">
                         <span className="badge badge-primary badge-pill">✓</span>

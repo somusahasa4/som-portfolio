@@ -1,6 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.compat.css"
 
 const Techknowledge = () => (
 
@@ -114,32 +116,85 @@ const Techknowledge = () => (
 
     </div>
     <div className="tags">
-        <span>Adobe Campaign Classic v7</span>
-        <span>Adobe Campaign Classic v8</span>
-        <span>Adobe Campaign Standard</span>
-        <span>Adobe Analytics</span>
-        <span>Adobe Experience Manager</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Javascript</span>
-        <span>Jquery</span>
-        <span>ReactJs</span>
-        <span>Bootstrap</span>
-        <span>SASS/SCSS</span>
-        <span>XML</span>
-        <span>ResponsiveWebDesign</span>
-        <span>Json</span>
-        <span>Github</span>
-        <span>NodeJs</span>
-        <span>SQL</span>
-        <span>Progressive WebApp</span>
-        <span>FCM</span>
-        <span>SOAP API</span>
-        <span>Restful API</span>
-        <span>Adobe Photoshop</span>
-        <span>Adobe InDesign</span>
-        <span>Adobe Dreamweaver</span>
-        <span>Adobe Illustrator</span>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+          <span>Adobe Campaign Classic v7</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+          <span>Adobe Campaign Classic v8</span>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+          <span>Adobe Campaign Standard</span>
+        </ScrollAnimation>           
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+            <span>Adobe Analytics</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Adobe Experience Manager</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>HTML</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>CSS</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Javascript</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Jquery</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>ReactJs</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Bootstrap</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>SASS/SCSS</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>XML</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>ResponsiveWebDesign</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Json</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Github</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>NodeJs</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>SQL</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Progressive WebApp</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>FCM</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>SOAP API</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Restful API</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Adobe Photoshop</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Adobe InDesign</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Adobe Dreamweaver</span>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn='flipInY' animateOut='flipOutY'>
+      <span>Adobe Illustrator</span>
+        </ScrollAnimation>
+                
     </div>
   </Container>
 );
