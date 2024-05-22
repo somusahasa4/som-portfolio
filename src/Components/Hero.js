@@ -1,4 +1,3 @@
-import './Hero.scss';
 import React, { useState, useEffect } from "react";
 
 function Sitenav() {

@@ -1,8 +1,5 @@
-import React,{ useEffect } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
-import 'bootstrap/dist/css/bootstrap.css';
-import './style.scss';
-import "./App.css";
 import Academic from './Academic';
 import Coverletter from './Coverletter';
 import Projects from './Projects';
@@ -13,6 +10,11 @@ import Sitenav from './Sitenav';
 import Hero from './Hero';
 import ScrollToTop from './ScrollToTop';
 import Contactme from './Contactme';
+
+import 'bootstrap/dist/css/bootstrap.css';
+import '../style/style.scss';
+import "../style/App.css";
+
 import data from './contentJson';
 
 function HomePage () {

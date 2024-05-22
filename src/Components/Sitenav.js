@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import './Sitenav.scss';
+import '../style/Sitenav.scss';
 
 function Sitenav() {
   return (
@@ -23,10 +23,11 @@ function Sitenav() {
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#project3">Project3</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#project4">
-                  Project4
+                <NavDropdown.Item href="#academic">
+                    Academic
                 </NavDropdown.Item>
               </NavDropdown>
+              <Nav.Link href="#techknowledge">Technologies</Nav.Link>
               <Nav.Link href="#contactme">Contact me</Nav.Link>
             </Nav>
 

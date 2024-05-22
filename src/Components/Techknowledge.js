@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Techknowledge = () => (
 
   <Container>
-    <div className="techknowledge">
+    <div id="techknowledge" className="techknowledge">
       <h1>Technologies</h1>
       <Container fluid>
           <div className="flex-row bd-highlight mb-3 flex-wrap">
