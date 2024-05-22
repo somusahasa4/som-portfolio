@@ -20,23 +20,16 @@ import data from './contentJson';
 function HomePage () {
 return (
   <Container id="home" fluid>
-    <div  data-aos="flip-right">
       <Hero />
-    </div>
-    <div  data-aos="flip-left">
       <Sitenav/>
-    </div>
       <Coverletter/>
       <Workexp/>
       <Projects/>
       <Skills/>
       <Academic/>
-      <Techknowledge/>
+      <Techknowledge data={data}/>
       <Contactme data={data} />
       <ScrollToTop />
-      <script>
-          AOS.init();
-      </script>
   </Container>
   )
 }
