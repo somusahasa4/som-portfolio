@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import data from './contentJson';
-
-
 
 class Techknowledge extends Component {
     render() {
@@ -132,7 +129,7 @@ class Techknowledge extends Component {
                     )
                   })
                 }
-
+                <br/><br/><br/>
             </div>
           </Container>
           );
