@@ -20,9 +20,9 @@ import data from './contentJson';
 function HomePage () {
 return (
   <Container id="home" fluid>
-      <Hero />
+      <Hero data={data} />
       <Sitenav/>
-      <Coverletter/>
+      <Coverletter data={data}/>
       <Workexp/>
       <Projects/>
       <Skills/>
