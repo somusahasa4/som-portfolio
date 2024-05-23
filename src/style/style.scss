@@ -1,6 +1,21 @@
 
 @import "variables";
 
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
 header .logo {
     font-size: 28px;
     margin: 0;
@@ -1074,7 +1089,12 @@ section {
         padding: 20px;
     }
     &-toggler {
-        border-color: #ffffff;
+        background-color: #71de56;
+        border: none !important;
+        box-shadow: none !important;
+        &.collapsed {
+            background-color: #ffffff;
+        }
     }
     .navbar-brand,
     .nav-link,
@@ -1243,20 +1263,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .badge-pill {
-    color: #db528c;
+    color: #71de56;
 }
-
-.badge-pill a {
-    color: red;
-}
-.badge-pill a:hover{
-    color: green;
-}
-
-.badge-pill a:focus {
-    color: black;
-}
-
 
 .workexp {
     $workexpcolor: #24ad57;
@@ -1596,3 +1604,8 @@ html {
 }
 
 
+.hero {
+    background: #dddddd url('../images/bg.jpg') 0 0 repeat !important;
+    height: 400px;
+    padding: 20px;
+}

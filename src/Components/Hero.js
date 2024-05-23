@@ -1,15 +1,16 @@
-import './Hero.scss';
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 
-function Sitenav() {
+class Sitenav extends Component {
+  render() {
+  let data = this.props.data;
   return (
     <section id="hero" className="hero d-flex flex-column align-items-center justify-content-center">
-
-    <h1>Hi, I'm Somasundaram!</h1>
-    <h2><Typewriter text="Expertise in Front End Development and in Digital experiences! SME for Adobe Campaign!!                            " delay="100" infinite/></h2>
-    <a href="#sitenav" className="btn-get-started scrollto"><i className="bi bi-arrow-down-circle-fill"></i></a>
+        <h1>{data.hero.h1}</h1>
+        <h2><Typewriter text={data.hero.typewritingText} delay="100" infinite/></h2>
+        <a href="#sitenav" className="btn-get-started scrollto"><i className="bi bi-arrow-down-circle-fill"></i></a>
   </section>
-    );
+    )
+  }
 }
 
 const Typewriter = ({ text, delay, infinite }) => {
