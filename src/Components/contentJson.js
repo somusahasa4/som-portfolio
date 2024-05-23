@@ -1,4 +1,37 @@
 let portfolioContent = {
+    "coverletter" : [
+        {"summaryItem": "10+ years of IT experience in Web Technologies and Digital Marketing Technologies"},
+        {"summaryItem": "Adobe Campaign Implementation and Campaign Management across different channels"},
+        {"summaryItem": "Integrating Adobe Campaign tool with other tools like Adobe Analytics, AEM and custom connectors for custom channels"},
+        {"summaryItem": "Automating webpages using Static Site Generators, HTML5, CSS3, Jade/pug, SASS, JavaScript, SEO concepts and UI/UX design."},
+        {"summaryItem": "Ability to improvise, troubleshoots, take ownership, and learn new skills on the job."},
+        {"summaryItem": "I hope to share my skills, expertise and experience with your team and valuable clients."}
+    ],
+    "contactme": {
+        "h1": "Contact me!",
+        "socialLinks" : [
+            {
+                "linkHref": "https://www.linkedin.com/in/somasundaram-haldurai-b11875193/",
+                "className": "bi bi-linkedin"
+            },
+            {
+                "linkHref": "https://github.com/somusahasa4/",
+                "className": "bi bi-github"
+            },
+            {
+                "linkHref": "mailto:somusahasa4@gmail.com",
+                "className": "bi bi-envelope"
+            },
+            {
+                "linkHref": "https://x.com/somusahasa4",
+                "className": "bi bi-twitter-x"
+            }
+        ]
+    },
+    "hero" : {
+        "h1": "Hi, I'm Somasundaram!",
+        "typewritingText": "Expertise in Front End Development and in Digital experiences! SME for Adobe Campaign!!                            "
+    },
     "imagebaseurl":"",
     "name": "Somasundaram Haldurai",
     "role": "Front End Developer and Digital Experience Professional",
